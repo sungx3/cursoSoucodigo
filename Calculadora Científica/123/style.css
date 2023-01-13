@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#resultado{
+    width: 400px;
+    height: 700px;
+    text-align: center;
+    font-family: fantasy;
+    color: black;
+    height: 100px;
+    font-size: 70px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    border-radius: 8px;
+    height: 200px;
+}
+
+.container-calculadora {
+    background-color: #87CEFA;
+    height: 100vh;
+    color: #fff;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom right, #87CEFA, #00008B);
+    background-size: cover;
+}
+
+
+.corpo-calculadora {
+    width: 100%;
+    max-width: 400px;
+    background-color: #00008B;
+    border-radius: 30px;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    height: 700px;
+    background: linear-gradient(to bottom, #00008B, #87CEFA);
+}
+
+
+.todos-os-botoes {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-gap: 3px;
+    width:100%;
+    padding: 10px;
+}
+
+
+.botao-com-função{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    background-color: #87CEFA;
+    opacity: 0.8; 
+}
+
+.todos-os-botoes button {
+    transition: background-color 0.2s ease-in-out;
+}
+.todos-os-botoes button:hover {
+    transition: background-color 0.2s ease-in-out, transform 0.2s ease-in-out;
+    background-color: #FFFFFF;
+    color: black;
+    transform: scale(1.1);
+}
+
+.botao-com-operador{
+    width: 60px;
+    height: 60px;
+    font-size: 30px;
+    cursor: pointer;
+    background-color: #ddd;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    background-color: #87CEFA;
+}
+
+.igual {
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    background-color: orange;
+}
+.numero{
+    width: 60px;
+    height: 60px;
+    font-size: 25px;
+    cursor: pointer;
+    border: none;
+    color: #87CEFA;
+    text-align: center;
+    line-height: 50px;
+    border-radius: 30px;
+    background-color: #FFFFFF;
+}
+
+

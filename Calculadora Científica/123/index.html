@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Calculadora Científica</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container-calculadora"> 
+      <div class="corpo-calculadora">
+        <div class="saida">
+          <input type="text" id="resultado" disabled />
+        </div>
+        <div class="todos-os-botoes">
+            <button class="botao-com-função" onclick="pow()">X²</button>
+            <button class="botao-com-função" onclick="sin()">SIN</button>
+            <button class="botao-com-função" onclick="cos()">COS</button>
+            <button class="botao-com-função" onclick="tan()">TAN</button>
+            <button class="botao-com-função" style="color: red;" onclick="clean()">C</button>
+            <button class="botao-com-função" onclick="back()">Del</button>
+            <button class="botao-com-função" onclick="percent()">%</button>
+            <button class="botao-com-operador" onclick="insert('/')">÷</button>
+            <button class="numero" onclick="insert('7')">7</button>
+            <button class="numero" onclick="insert('8')">8</button>
+            <button class="numero" onclick="insert('9')">9</button>
+            <button class="botao-com-operador" onclick="insert('*')">x</button>
+            <button class="numero" onclick="insert('4')">4</button>
+            <button class="numero" onclick="insert('5')">5</button>
+            <button class="numero" onclick="insert('6')">6</button>
+            <button class="botao-com-operador" onclick="insert('-')">-</button>
+            <button class="numero" onclick="insert('1')">1</button>
+            <button class="numero" onclick="insert('2')">2</button>
+            <button class="numero" onclick="insert('3')">3</button>
+            <button class="botao-com-operador" onclick="insert('+')">+</button>
+            <button class="botao-com-função" onclick="raizQuadrada()">√</button>
+            <button class="numero" onclick="insert('0')">0</button>
+            <button class="botao-com-função" onclick="insert('.')">.</button>
+            <button class="igual" onclick="calcular()">=</button>
+          </div>
+        </div>
+      </div>
+      <script src="calculator.js"></script>
+    </body>
+  </html>
+  
