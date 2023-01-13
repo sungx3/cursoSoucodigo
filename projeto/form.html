@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SOULPET</title>
+    <link rel="shortcut icon" href="./img/icons/dogue-alemao.png" type="image/svg+xml">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+</head>
+
+<body>
+    <header>
+        <!--NAVBAR-->
+        <nav class="navbar navbar-expand-lg navbar-light bs-blue">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="index.html">SOUL<img src="img/icons/dogue-alemao.png" alt=""> PET VE<img
+                        src="./img/fom/farmacia.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="#navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="form.html">Agende uma consulta</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="./shop.html">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about.html">Sobre Nós</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <br>
+    </header>
+    <!--CHAMADA-->
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="colum badge placeholder-wave " style="background-color: rgb(99, 156, 226)">
+                    <h2>Agende já a sua consulta <img src="./img/icons/dogue-alemao.png" alt=""></h2>
+                </div>
+            </div>
+        </div>
+        <br><br>
+        <div class="container">
+            <div class="row " style="margin-left: 0;">
+                <div class="col">
+                    <img src="./img/fom/img-form-2.jpg" class="img-thumbnail" alt="...">
+                </div>
+                <!--FORMULÁRIO-->
+                <div class="col">
+                    <div class="col">
+                        <div class="mb-2">
+                            <label for="nome">Nome Completo</label>
+                            <input id="nome" class="form-control" type="text" placeholder="Seu nome"
+                                aria-label="default input example">
+                        </div>
+                        <div class="mb-2">
+                            <label for="exampleFormControlInput1" class="form-label">E-mail</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="email@mail.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="endereco">Endereço completo</label>
+                            <input id="endereco" class="form-control" type="text"
+                                placeholder="Cidade, Estado, Rua, Número" aria-label="default input example">
+                        </div>
+                        <select class="form-select mb-2" aria-label="Default select example">
+                            <option selected>Qual o seu animal?</option>
+                            <option value="1">Gato</option>
+                            <option value="2">Cachorro</option>
+                            <option value="3">Pássaro</option>
+                            <option value="4">Outro</option>
+                        </select>
+                        <div class="mb-2">
+                            <label for="peso">Peso</label>
+                            <input id="peso" class="form-control" type="text" placeholder="Qual o peso do seu bichinho?"
+                                aria-label="default input example">
+                        </div>
+                        <div class="mb-3">
+                            <label for="exampleFormControlTextarea1" class="form-label">O que houve com o seu
+                                bichinho?</label>
+                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary placeholder-wave">Enviar informações</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+    <!--Tabela de preços-->
+    <div class="container">
+        <div class="row">
+            <div class="colum badge placeholder-wave " style="background-color:rgb(235, 226, 186)">
+                <h2>Tabela de Preços <img src="./img/about-us/money-bag.png" alt=""></h2>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row row-cols-2">
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <th>Para cachorros</th>
+                        <tr>
+                            <th scope="col">Serviço</th>
+                            <th scope="col">Peso</th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">Veterinário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Consulta básica</th>
+                            <td>até 9 Kg</td>
+                            <td>R$ 150,00</td>
+                            <td>Olga Vieira</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Vacina</th>
+                            <td>até 9 kg</td>
+                            <td>R$ 100,00</td>
+                            <td>Olga Vieira</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Controle de Pulgas</th>
+                            <td>até 9kg</td>
+                            <td>R$ 85,00</td>
+                            <td>Ricardo Rocha</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <table class="table">
+                    <thead>
+                        <th>Para Gatos</th>
+                        <tr>
+                            <th scope="col">Serviço</th>
+                            <th scope="col">Peso</th>
+                            <th scope="col">Valor</th>
+                            <th scope="col">Veterinário</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th scope="row">Consulta Básica</th>
+                            <td>até 4 Kg</td>
+                            <td>109,90</td>
+                            <td>Davi Santiago</td>
+                        </tr>
+                        <tr>
+                            <th>Vacina</th>
+                            <td>até 4 Kg</td>
+                            <td>79,00</td>
+                            <td>Beatriz lima</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">Ultrason</th>
+                            <td>Até 4kg</td>
+                            <td>189,90</td>
+                            <td>Beatriz lima</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col" style="text-align: right;">
+                <p style="color: red;"><i>*Para valores de serviços fora das tabelas aguarde a resposta do
+                        formulário!</i></p>
+
+            </div>
+        </div>
+    </div>
+    <br>
+    <br>
+    <!--FOOTER-->
+    <hr>
+    <footer>
+        <div class="container-fluid">
+            <div class="container">
+                <div class="row" style="text-align: center;">
+                    <div class="col">
+                        <h6>Atendimento</h6>
+                        <ol>
+                            <li><a class="link-footer" href="#">Email</a></li>
+                            <li><a class="link-footer" href="#">Telefone</a></li>
+                            <li><a class="link-footer" href="#">Nosso endereço</a></li>
+                            <hr>
+                        </ol>
+                        <h6>Nossas redes</h6>
+                        <div class="row">
+                            <div class="col"><a href="#"><img src="./img/redes/instagram.png" alt=""></div></a>
+                            <div class="col"><a href="#"><img src="./img/redes/facebook.png" alt=""></div></a>
+                            <div class="col"><a href="#"> <img src="./img/redes/twitter-sign.png" alt=""></div></a>
+                            <div class="col"> <a href="#"> <img src="./img/redes/linkedin.png" alt=""></div></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <h2 class="placeholder-wave-2">SOUL <img src="img/icons/dogue-alemao.png" alt=""></a> PET
+                        </h2>
+                        <p>
+                            &copy; 2022. All Rights Reserverd
+                        </p>
+                        <p><a class="link-footer" href="#">Terms & Condition</a></p>
+                        <p><a class="link-footer" href="#">Privacy Policy</a></p>
+                    </div>
+                    <div class="col-md-4">
+                        <h5>Feito Por</h5>
+                        <ul>
+                            <li>Helio Santos Matos e Silva Neto <a
+                                    href="https://www.linkedin.com/in/helio-matos-b914b0241/" target="_blank">
+                                    <img src="./img/redes/linkedin.png" alt=""></a>
+                                <br><br>
+                            <li>Fernando Sung Park <a href="https://www.linkedin.com/in/sungs/" target="_blank">
+                                    <img src="./img/redes/linkedin.png" alt=""></a></li>
+                            <br>
+                            <li>Elton Sabino <a href="https://www.linkedin.com/in/elton-sabino/" target="_blank">
+                                    <img src="./img/redes/linkedin.png" alt=""></a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <br>
+
+    <!-- JS DO BOOTSTRAP-->
+    <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
